@@ -1035,20 +1035,7 @@ Primary use:	Showcase Portfolio
 	
 	
 	#magic-cursor {
-	  position: absolute;
-	  left:0;
-	  top:0;
-	  width: 40px;
-	  height: 40px;
-	  pointer-events: none;
-	  z-index:10000;
-	  -webkit-transition: opacity 0.2s ease-in-out 0.5s;
-		transition: opacity 0.2s ease-in-out 0.5s;
-	}
-	
-	.hidden-ball #magic-cursor {
-		opacity:0!important;
-		visibility:hidden;
+	  display: none !important;
 	}
 	
 	#ball {
